@@ -1,0 +1,50 @@
+package io.github.kailbin;
+
+import io.github.kailbin.model.*;
+import io.github.kailbin.crawler.VicRoadsLearnerPermitCrawler;
+import io.github.kailbin.model.po.QuestionPO;
+import io.github.kailbin.model.vo.QuestionVO;
+import io.github.kailbin.parser.VicRoadsLearnerPermitAnswerParser;
+import io.github.kailbin.parser.VicRoadsLearnerPermitQuestionParser;
+import io.github.kailbin.repository.DataFileDAO;
+import io.github.kailbin.tools.WebDriverFactory;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * @see WebDriverFactory Browser
+ * @see VicRoadsLearnerPermitCrawler Datasource
+ * @see VicRoadsLearnerPermitQuestionParser Question Parser
+ * @see VicRoadsLearnerPermitAnswerParser Answer Parser
+ * @see VicRoadsLearnerPermitQuestions Data Model
+ */
+public class VicRoadsLearnerPermitApp {
+
+    public static void main(String[] args) throws InterruptedException, IOException {
+        // 问题 HTML
+        String questionsSource = VicRoadsLearnerPermitCrawler.requestQuestions();
+        VicRoadsLearnerPermitQuestionParser questionDataParser = new VicRoadsLearnerPermitQuestionParser(questionsSource);
+        String refNumber = questionDataParser.parsePracticeTestRef();
+        List<QuestionVO> questionVOs = questionDataParser.parseQuestions();
+        //
+        VicRoadsLearnerPermitQuestions permitQuestions = VicRoadsLearnerPermitQuestions.convertCurrent(questionVOs);
+
+        // 答案 HTML
+        String answerSource = VicRoadsLearnerPermitCrawler.requestAnswer(refNumber);
+        VicRoadsLearnerPermitAnswerParser answerDataParser = new VicRoadsLearnerPermitAnswerParser(answerSource);
+        List<Integer> answersIndex = answerDataParser.parseAnswerIndex();
+        //
+        permitQuestions.fillCorrectAnswers(answersIndex);
+
+
+        // Read
+        Map<String, QuestionPO> allQuestionPOMap = DataFileDAO.readAllQuestionMappings();
+        // Merge
+        permitQuestions.merge2AllQuestionPOs(allQuestionPOMap);
+        // Save
+        DataFileDAO.writeAllQuestions(new ArrayList<>(allQuestionPOMap.values()));
+    }
+}

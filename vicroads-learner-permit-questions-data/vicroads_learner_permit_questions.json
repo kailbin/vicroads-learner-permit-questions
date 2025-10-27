@@ -1,0 +1,682 @@
+[
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"she can adjust it easily while driving using voice commands."
+			},
+			{
+				"correct":true,
+				"option":"she does not touch it or use voice commands to change it."
+			},
+			{
+				"correct":false,
+				"option":"she keeps it on her lap with the sound turned off."
+			}
+		],
+		"createTime":"2025-10-28 02:06:26.386",
+		"id":"b1503d7a8bd6b4d710c7a49d8344c4135e63eb16",
+		"title":"Kalista has a learner permit and has a GPS navigation device mounted in her car. She is only allowed to use this while driving if she sets it up before driving and",
+		"updateTime":"2025-10-28 02:06:26.386"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"During those times when you are normally asleep"
+			},
+			{
+				"correct":false,
+				"option":"After you drink coffee"
+			},
+			{
+				"correct":false,
+				"option":"After you fail to take medication"
+			}
+		],
+		"createTime":"2025-10-28 02:06:25.784",
+		"id":"d9792f10e870a11b13caa879710e8395a4156ad2",
+		"title":"When is fatigue likely to be a significant problem for you as a driver?",
+		"updateTime":"2025-10-28 02:06:25.784"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"only drive in safe conditions."
+			},
+			{
+				"correct":true,
+				"option":"have a variety of different driving experiences."
+			},
+			{
+				"correct":false,
+				"option":"mainly practise driving on long straight roads."
+			}
+		],
+		"createTime":"2025-10-28 02:06:25.208",
+		"id":"de0e83964a0bddcd81e113f55178bd8c214e2a6f",
+		"title":"Learner drivers are more likely to improve their skills if they",
+		"updateTime":"2025-10-28 02:06:25.208"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"40 km/h"
+			},
+			{
+				"correct":true,
+				"option":"50 km/h"
+			},
+			{
+				"correct":false,
+				"option":"60 km/h"
+			}
+		],
+		"createTime":"2025-10-28 02:06:25.208",
+		"id":"f5e93495c33f02813cc7764590158b0e30a0a621",
+		"title":"You are driving in a built up area. There are no signs indicating a speed limit. What is the maximum speed you are allowed to drive?",
+		"updateTime":"2025-10-28 02:06:25.208"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"Accelerate a little"
+			},
+			{
+				"correct":false,
+				"option":"Slow down a little"
+			},
+			{
+				"correct":false,
+				"option":"Continue at the same speed"
+			}
+		],
+		"createTime":"2025-10-28 02:06:24.870",
+		"id":"37cac590ec9ed4e7c39fcc419aec1bf6512127d4",
+		"title":"How should you drive out of a bend in the road?",
+		"updateTime":"2025-10-28 02:06:24.870"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"To warn other drivers of your position on the road"
+			},
+			{
+				"correct":false,
+				"option":"To let other drivers know that they are driving too fast"
+			},
+			{
+				"correct":false,
+				"option":"To inform other drivers of a dangerous situation further along the road"
+			}
+		],
+		"createTime":"2025-10-28 02:06:24.063",
+		"id":"07ac1639b63b8cfecf4d5bd7b96b1d1f35c76b4c",
+		"title":"When are you allowed to use your vehicle's horn?",
+		"updateTime":"2025-10-28 02:06:24.063"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"10%"
+			},
+			{
+				"correct":false,
+				"option":"20%"
+			},
+			{
+				"correct":true,
+				"option":"30%"
+			}
+		],
+		"createTime":"2025-10-28 02:04:26.710",
+		"id":"b722a21b426d5fab94271e8ea517d3d18065f4fd",
+		"title":"Learner drivers with 120 hours of practice decrease their risk of crashing after they get their licence compared to drivers who have less practice. How much is the risk decreased?",
+		"updateTime":"2025-10-28 02:06:26.741"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Turn off the GPS sound and rely only on the images."
+			},
+			{
+				"correct":true,
+				"option":"Program the GPS before starting his journey."
+			},
+			{
+				"correct":false,
+				"option":"Keep the GPS on his lap and use voice controls so he does not have to reach for it while driving."
+			}
+		],
+		"createTime":"2025-10-28 02:04:26.499",
+		"id":"cb5f324c73245340072570e1269df9e44414653f",
+		"title":"David is a P1 driver. He wants to use the GPS navigation system in his car. What must he do to reduce the risk of crashing?",
+		"updateTime":"2025-10-28 02:04:26.499"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Don't do it because the crash risk is higher."
+			},
+			{
+				"correct":true,
+				"option":"Practise driving at night with an experienced supervisor."
+			},
+			{
+				"correct":false,
+				"option":"Drive very slowly because the crash risk is higher."
+			}
+		],
+		"createTime":"2025-10-28 02:04:26.387",
+		"id":"5265914915c444f144d18082105d995dcb4d3a80",
+		"title":"What is the best advice for learner drivers about driving at night?",
+		"updateTime":"2025-10-28 02:04:26.387"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"They have a natural ability to drive well."
+			},
+			{
+				"correct":true,
+				"option":"They have had lots of experience driving in different situations."
+			},
+			{
+				"correct":false,
+				"option":"They only drive in the same areas."
+			}
+		],
+		"createTime":"2025-10-28 02:04:26.163",
+		"id":"e5a25c01a940ad5e5b8ad3dd4ab7c7aedf531a94",
+		"title":"Good drivers can predict what may happen around them. How do they get this skill?",
+		"updateTime":"2025-10-28 02:04:26.163"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"You must drive on the line."
+			},
+			{
+				"correct":false,
+				"option":"You must keep as close to the line as possible."
+			},
+			{
+				"correct":true,
+				"option":"You must keep to the left of the line and as close to the left side of the road as possible."
+			}
+		],
+		"createTime":"2025-10-28 02:04:26.033",
+		"id":"7eefe256d13e03e860bd4bd4f8e0066f689443a1",
+		"title":"There is a single white broken line painted in the centre of the road. Where must you drive?",
+		"updateTime":"2025-10-28 02:04:26.033"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"40 metres"
+			},
+			{
+				"correct":false,
+				"option":"80 metres"
+			},
+			{
+				"correct":true,
+				"option":"140 metres"
+			}
+		],
+		"createTime":"2025-10-28 02:04:26.033",
+		"id":"91194df80becaaf0d29cc6d70d3d8a5d2742f6c8",
+		"title":"You are driving at 100 km/h. What distance are you most likely to cover before you can stop?",
+		"updateTime":"2025-10-28 02:04:26.033"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"all vehicles in the roundabout to your right only."
+			},
+			{
+				"correct":false,
+				"option":"all vehicles in the roundabout to your left only."
+			},
+			{
+				"correct":true,
+				"option":"all vehicles already in the roundabout."
+			}
+		],
+		"createTime":"2025-10-28 02:04:25.780",
+		"id":"ee2dd4fb1fdf9bea57b9d7c840ed974645b1494b",
+		"title":"When entering a roundabout you must give way to",
+		"updateTime":"2025-10-28 02:04:25.780"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"many vehicles are unroadworthy."
+			},
+			{
+				"correct":false,
+				"option":"roads are often in poor condition."
+			},
+			{
+				"correct":true,
+				"option":"drivers make mistakes."
+			}
+		],
+		"createTime":"2025-10-28 02:04:25.673",
+		"id":"a25f72f5b6043c59a71e373f9eed92c02c8e4bd9",
+		"title":"Crashes are usually caused because",
+		"updateTime":"2025-10-28 02:06:24.587"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"Slow down or stop if necessary to avoid a collision."
+			},
+			{
+				"correct":false,
+				"option":"Drive past quickly."
+			},
+			{
+				"correct":false,
+				"option":"Sound your horn until the horses move out of your way."
+			}
+		],
+		"createTime":"2025-10-28 02:04:25.673",
+		"id":"fd564118328977ce7bd63258a239a6fbee15572f",
+		"title":"What should you do when you see horses on the road?",
+		"updateTime":"2025-10-28 02:04:25.673"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Because driving is boring but necessary."
+			},
+			{
+				"correct":true,
+				"option":"You should be anticipating what will happen next."
+			},
+			{
+				"correct":false,
+				"option":"You should never drive in situations that might surprise you."
+			}
+		],
+		"createTime":"2025-10-28 02:04:25.021",
+		"id":"66580942ca6ad8c9b781f9a297311530abe7034b",
+		"title":"\"Most driving shouldn't be surprising.\" Why not?",
+		"updateTime":"2025-10-28 02:04:25.021"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Driving with windows open"
+			},
+			{
+				"correct":true,
+				"option":"Consuming a reasonable quantity of alcohol"
+			},
+			{
+				"correct":false,
+				"option":"Drinking strong coffee"
+			}
+		],
+		"createTime":"2025-10-28 02:04:24.778",
+		"id":"f7c1d3f76221551e8152990c3fb7dccf1d315761",
+		"title":"Which of these things is most likely to cause drowsiness in drivers?",
+		"updateTime":"2025-10-28 02:04:24.778"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"At all times"
+			},
+			{
+				"correct":false,
+				"option":"When the driving conditions are ideal"
+			},
+			{
+				"correct":true,
+				"option":"When the driving conditions are poor"
+			}
+		],
+		"createTime":"2025-10-28 01:42:07.421",
+		"id":"26ba93883923502439a1bd9d7576fa817f7c7f05",
+		"title":"When is it advisable to drive more than the usual two seconds behind the vehicle in front?",
+		"updateTime":"2025-10-28 02:06:24.261"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Stop in the emergency lane."
+			},
+			{
+				"correct":true,
+				"option":"Try to drive out of the tunnel."
+			},
+			{
+				"correct":false,
+				"option":"Turn off your headlights."
+			}
+		],
+		"createTime":"2025-10-28 01:42:07.421",
+		"id":"4d81c16aade9688000700ba49ff097e1b797a01b",
+		"title":"You are driving in a tunnel and your engine starts to make strange noises. What should you do?",
+		"updateTime":"2025-10-28 02:04:26.033"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Make sure the injured person is alright then drive on."
+			},
+			{
+				"correct":true,
+				"option":"Report the crash to the nearest open police station."
+			},
+			{
+				"correct":false,
+				"option":"Only report the crash to the nearest open police station if property has also been damaged."
+			}
+		],
+		"createTime":"2025-10-28 01:42:07.421",
+		"id":"8b9b3c4528e273ec89797f47661b6d523bb0c927",
+		"title":"You are in a crash. The police are not in attendance. Someone is injured. What should you do?",
+		"updateTime":"2025-10-28 02:04:25.021"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Focus your eyes on the vehicle in front."
+			},
+			{
+				"correct":true,
+				"option":"Keep watching the traffic all around you."
+			},
+			{
+				"correct":false,
+				"option":"Keep your eyes fixed on the rear view mirror."
+			}
+		],
+		"createTime":"2025-10-28 01:42:07.421",
+		"id":"bea269226153f2bad58c2c98ba01e25518cc1510",
+		"title":"What should you do with your eyes while driving?",
+		"updateTime":"2025-10-28 01:42:07.421"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"Sleep until refreshed before driving."
+			},
+			{
+				"correct":false,
+				"option":"Drink coffee and drive immediately."
+			},
+			{
+				"correct":false,
+				"option":"Open the windows and turn on the radio before driving."
+			}
+		],
+		"createTime":"2025-10-28 01:42:07.421",
+		"id":"e0d4643cbec733626281799c543f7d370bf32eb4",
+		"title":"You are tired after a day's work, and need to drive a long distance. What should you do?",
+		"updateTime":"2025-10-28 01:42:07.421"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Quickly apply the handbrake."
+			},
+			{
+				"correct":true,
+				"option":"Pump on the brake pedal hard and fast."
+			},
+			{
+				"correct":false,
+				"option":"Stay in the same gear and sound your horn."
+			}
+		],
+		"createTime":"2025-10-28 01:42:07.120",
+		"id":"039d0591007366c31281624fa1e9e95cdece2c28",
+		"title":"What is one thing you should try if your brakes fail?",
+		"updateTime":"2025-10-28 01:42:07.120"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"not allowed to drive under any circumstances."
+			},
+			{
+				"correct":false,
+				"option":"allowed to drive only in an emergency."
+			},
+			{
+				"correct":false,
+				"option":"allowed to drive to work if there is no other type of transport available."
+			}
+		],
+		"createTime":"2025-10-28 01:42:06.787",
+		"id":"94501afb8c8f0184a76d7cf8d3fe28bf9adf22bc",
+		"title":"Your licence has been cancelled. You are",
+		"updateTime":"2025-10-28 02:06:24.063"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"if you are holding up the traffic behind you."
+			},
+			{
+				"correct":true,
+				"option":"to pass it when it is safe to do so."
+			},
+			{
+				"correct":false,
+				"option":"because your passengers have asked you to do so."
+			}
+		],
+		"createTime":"2025-10-28 01:42:06.495",
+		"id":"6f0e38391e11061515f9415fa516bfcca123c31d",
+		"title":"You are driving at 10 km/h below the speed limit on a straight road. You are about two seconds behind the vehicle in front. The only reason for moving closer to the car in front is",
+		"updateTime":"2025-10-28 01:42:06.495"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Accelerate quickly to keep up with the traffic flow."
+			},
+			{
+				"correct":true,
+				"option":"Try to avoid bursts of acceleration and deceleration."
+			},
+			{
+				"correct":false,
+				"option":"Take your vehicle out of gear as you approach the vehicle in front."
+			}
+		],
+		"createTime":"2025-10-28 01:42:06.495",
+		"id":"ede7d4a33d9c2b8075cf1508e3fca9cba702883b",
+		"title":"You are driving in heavy traffic. What is a good way to reduce the amount of fuel you use?",
+		"updateTime":"2025-10-28 02:06:25.208"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"To pass their licence test"
+			},
+			{
+				"correct":true,
+				"option":"To drive consistently with no mistakes"
+			},
+			{
+				"correct":false,
+				"option":"To take their licence test after less than ten lessons"
+			}
+		],
+		"createTime":"2025-10-28 01:42:06.383",
+		"id":"76d654cc4292ec7bf8d071d7a14e87e943a94bf9",
+		"title":"What should be the main aim of a learner driver?",
+		"updateTime":"2025-10-28 01:42:06.383"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"Wait until the vehicle turns, then proceed."
+			},
+			{
+				"correct":false,
+				"option":"Sound your horn until the vehicle turns."
+			},
+			{
+				"correct":false,
+				"option":"Try to squeeze past on the footpath on the left of the vehicle."
+			}
+		],
+		"createTime":"2025-10-28 01:42:06.264",
+		"id":"813da7e64e39bf0ab13743b881289edd5908a1bb",
+		"title":"You are driving in heavy traffic. Your lane is blocked by a vehicle turning right.",
+		"updateTime":"2025-10-28 02:04:25.131"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"You need more than 35 metres to stop."
+			},
+			{
+				"correct":false,
+				"option":"You need less than 35 metres to stop."
+			},
+			{
+				"correct":false,
+				"option":"The weather conditions do not affect the braking distance."
+			}
+		],
+		"createTime":"2025-10-28 01:42:05.978",
+		"id":"ccb9b49b42238209ad6f109c48b1f0c5fbe835e5",
+		"title":"You are travelling at 50 km/h on a dry road. It takes 35 metres to stop. What happens when the road is wet?",
+		"updateTime":"2025-10-28 01:42:05.978"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Learner permit drivers"
+			},
+			{
+				"correct":true,
+				"option":"P1 probationary licence drivers"
+			},
+			{
+				"correct":false,
+				"option":"P2 probationary licence drivers"
+			}
+		],
+		"createTime":"2025-10-28 01:42:05.598",
+		"id":"a6a45f2b548d21448a58804d7366ee2a8c5a4653",
+		"title":"Who has the highest risk of crashing?",
+		"updateTime":"2025-10-28 01:42:05.598"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"enables you to check that you have experienced a wide range of driving conditions."
+			},
+			{
+				"correct":false,
+				"option":"includes facts about giving way to other vehicles on the road."
+			},
+			{
+				"correct":false,
+				"option":"helps you to find which is the best route to take."
+			}
+		],
+		"createTime":"2025-10-28 01:42:05.598",
+		"id":"eb07cdbef6144e8efa2a9e4971d743a2eafac0f0",
+		"title":"A driving log is useful for you as a learner driver because it",
+		"updateTime":"2025-10-28 01:42:05.598"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Up to 2 seconds"
+			},
+			{
+				"correct":true,
+				"option":"At least 5 seconds"
+			},
+			{
+				"correct":false,
+				"option":"More than 10 seconds"
+			}
+		],
+		"createTime":"2025-10-28 01:42:05.598",
+		"id":"f8530e42340150df81166337c9d40012f5ecc4bf",
+		"title":"You are entering a lane of traffic from the side of the road. How long must you signal with your indicators before you pull out?",
+		"updateTime":"2025-10-28 02:06:24.261"
+	},
+	{
+		"answers":[
+			{
+				"correct":true,
+				"option":"Only to overtake or when the road is congested"
+			},
+			{
+				"correct":false,
+				"option":"Only if you are travelling at the speed limit"
+			},
+			{
+				"correct":false,
+				"option":"At any time"
+			}
+		],
+		"createTime":"2025-10-28 01:42:04.887",
+		"id":"4ea78ed89709e351bac041a99a4a96eee96ad091",
+		"title":"You are driving on a multi-lane freeway. There are no transit lanes. When are you allowed to drive in the right lane?",
+		"updateTime":"2025-10-28 01:42:04.887"
+	},
+	{
+		"answers":[
+			{
+				"correct":false,
+				"option":"Stop and give way to any other vehicles."
+			},
+			{
+				"correct":false,
+				"option":"Continue to drive at the same speed."
+			},
+			{
+				"correct":true,
+				"option":"Adjust your speed once you have entered the exit ramp."
+			}
+		],
+		"createTime":"2025-10-28 01:42:04.887",
+		"id":"cbbf626fe95fc98c7e2435f70d7c348fb620bc43",
+		"title":"How should you enter the exit ramp of a freeway?",
+		"updateTime":"2025-10-28 01:42:04.887"
+	}
+]
