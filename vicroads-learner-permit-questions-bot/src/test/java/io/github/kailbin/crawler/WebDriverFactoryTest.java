@@ -1,18 +1,17 @@
-package io.github.kailbin.tools;
+package io.github.kailbin.crawler;
 
+import io.github.kailbin.crawler.VicRoadsLearnerPermitChromeCrawler;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class WebDriverFactoryTest {
 
     @Test
     void getWebDriver() throws InterruptedException {
 
-        WebDriver webDriver = WebDriverFactory.defaultInstance();
+        WebDriver webDriver = VicRoadsLearnerPermitChromeCrawler.WebDriverFactory.defaultInstance();
 
         // 打开页面
         webDriver.get("https://www.vicroads.vic.gov.au/");

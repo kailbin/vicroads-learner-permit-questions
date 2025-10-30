@@ -1,10 +1,10 @@
 package io.github.kailbin.model;
 
+import io.github.kailbin.crawler.VicRoadsLearnerPermitCrawlerFactory;
 import io.github.kailbin.model.po.AnswerPO;
 import io.github.kailbin.model.po.QuestionPO;
 import io.github.kailbin.model.vo.OptionVO;
 import io.github.kailbin.model.vo.QuestionVO;
-import io.github.kailbin.tools.ImageDownloadUtil;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
@@ -19,7 +19,7 @@ import org.mapstruct.factory.Mappers;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
-import java.util.HashMap;
+import java.util.Base64;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -98,9 +98,10 @@ public class VicRoadsLearnerPermitQuestions {
         String imageUrl = questionPO.getImageUrl();
         if (StringUtils.isNotBlank(imageUrl)) {
             try {
-                String imageBase64 = ImageDownloadUtil.downloadImageAsBase64(imageUrl);
+                byte[] imageBytes = VicRoadsLearnerPermitCrawlerFactory.singleInstanceOfJdkHttpClient().requestImage(imageUrl);
+                String imageBase64 = Base64.getEncoder().encodeToString(imageBytes);
                 questionPO.setImageBase64(imageBase64);
-            } catch (IOException e) {
+            } catch (IOException | InterruptedException e) {
                 log.warn("Image download error, question id:{}, title:{}，imageUrl:{}", questionId, title, imageUrl, e);
                 return;
             }

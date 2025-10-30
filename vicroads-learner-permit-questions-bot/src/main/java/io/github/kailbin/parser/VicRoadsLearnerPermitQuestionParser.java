@@ -1,6 +1,6 @@
 package io.github.kailbin.parser;
 
-import io.github.kailbin.crawler.VicRoadsLearnerPermitCrawler;
+import io.github.kailbin.crawler.VicRoadsLearnerPermitConst;
 import io.github.kailbin.model.vo.OptionVO;
 import io.github.kailbin.model.vo.QuestionVO;
 import lombok.extern.slf4j.Slf4j;
@@ -42,7 +42,7 @@ public class VicRoadsLearnerPermitQuestionParser {
 
         String[] labelAndNumber = text.split(":");
 
-        return labelAndNumber.length > 1 ? labelAndNumber[1] : null;
+        return labelAndNumber.length > 1 ? labelAndNumber[1].trim() : null;
     }
 
     public List<QuestionVO> parseQuestions() {
@@ -63,7 +63,7 @@ public class VicRoadsLearnerPermitQuestionParser {
             QuestionVO questionVO = new QuestionVO();
             questionVO.setTitle(title);
             if (StringUtils.isNotBlank(imageUrl)) {
-                questionVO.setImageUrl(VicRoadsLearnerPermitCrawler.DOMAIN + imageUrl);
+                questionVO.setImageUrl(VicRoadsLearnerPermitConst.DOMAIN + imageUrl);
             }
             questionVO.setOptions(options);
 
