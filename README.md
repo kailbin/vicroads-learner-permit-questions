@@ -2,7 +2,11 @@
 
 All Questions and Answers for the Vicroads Learner Permit Test.
 
+
+
 ### Questions and Answers _RAW DATA_ (Updating...)
+
+Now, There have **145 questions** in total.
 
 [vicroads-learner-permit-questions-data/vicroads_learner_permit_questions.json](vicroads-learner-permit-questions-data/vicroads_learner_permit_questions.json)
 
