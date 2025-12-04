@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class DataFileDAO {
 
-    private static final String MODEL_DATA_FILE_PATH = "vicroads-learner-permit-questions-data/";
+    private static final String MODEL_DATA_FILE_PATH = "vicroads-learner-permit-questions-front/public/data";
 
     public static final String DATA_FILE_NAME = "vicroads_learner_permit_questions.json";
 

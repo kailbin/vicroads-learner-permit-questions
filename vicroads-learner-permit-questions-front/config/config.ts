@@ -184,4 +184,6 @@ export default defineConfig({
     'process.env.CI': process.env.CI,
   },
   tailwindcss: {},
+
+  outputPath: '../gh-pages',  // 改为你想要的目录名，默认是 dist
 });

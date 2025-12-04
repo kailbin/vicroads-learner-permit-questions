@@ -1,0 +1,2 @@
+(("undefined"!=typeof globalThis?globalThis:self)["makoChunk_ant-design-pro"]=("undefined"!=typeof globalThis?globalThis:self)["makoChunk_ant-design-pro"]||[]).push([["common"],{a35a133d:function(e,n,a){"use strict";a.d(n,"__esModule",{value:!0}),a.d(n,"categoryOptions",{enumerable:!0,get:function(){return l;}});let l=Array.from({length:12}).map((e,n)=>({value:`cat${n+1}`,label:`\u{7C7B}\u{76EE}${n+1}`}));}}]);
+//# sourceMappingURL=common-async.d4d7cd44.js.map
