@@ -185,5 +185,5 @@ export default defineConfig({
   },
   tailwindcss: {},
 
-  outputPath: '../gh-pages',  // 改为你想要的目录名，默认是 dist
+  outputPath: '../docs',  // 改为你想要的目录名，默认是 dist
 });
