@@ -25,6 +25,9 @@ export default defineConfig({
   hash: true,
 
   publicPath: PUBLIC_PATH,
+  // 使用 hash 路由，避免在 GitHub Pages 或静态服务器直接刷新页面时出现 404
+  // hash 路由的 URL 形式为: https://.../repo/#/path
+  history: { type: 'hash' },
 
   /**
    * @name 兼容性设置
