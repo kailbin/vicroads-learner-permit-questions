@@ -154,10 +154,9 @@ export const request: RequestConfig = {
   //
   ...errorConfig,
 
-  // 请求拦截器
-  requestInterceptors: [
+  // 请求拦截器 - 仅在开发环境生效
+  requestInterceptors: isDev ? [
     (config: RequestOptions) => {
-
       const url = config.url || '';
 
       // 对于 /data/ 路径，移除 baseURL 以便直接从本地加载静态文件
@@ -167,5 +166,5 @@ export const request: RequestConfig = {
 
       return { ...config };
     },
-  ],
+  ] : [],
 };
