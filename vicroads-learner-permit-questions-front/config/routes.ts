@@ -47,6 +47,7 @@ export default [
     path: "/vicroads",
     name: "vicroads",
     icon: "dashboard",
+    layout: false,
     routes: [
       {
         name: "questions",
@@ -60,6 +61,7 @@ export default [
     path: "/dashboard",
     name: "dashboard",
     icon: "dashboard",
+    layout: false,
     routes: [
       {
         path: "/dashboard",
@@ -89,6 +91,7 @@ export default [
     path: "/form",
     icon: "form",
     name: "form",
+    layout: false,
     routes: [
       {
         path: "/form",
@@ -118,6 +121,7 @@ export default [
     path: "/list",
     icon: "table",
     name: "list",
+    layout: false,
     routes: [
       {
         path: "/list/search",
@@ -272,7 +276,7 @@ export default [
   },
   {
     path: "/",
-    redirect: "/dashboard/analysis",
+    redirect: "/vicroads/questions",
   },
   {
     component: "404",

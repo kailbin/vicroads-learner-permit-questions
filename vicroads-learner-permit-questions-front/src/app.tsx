@@ -151,5 +151,21 @@ export const layout: RunTimeLayoutConfig = ({
  */
 export const request: RequestConfig = {
   baseURL: 'https://proapi.azurewebsites.net',
+  //
   ...errorConfig,
+
+  // 请求拦截器
+  requestInterceptors: [
+    (config: RequestOptions) => {
+
+      const url = config.url || '';
+
+      // 对于 /data/ 路径，移除 baseURL 以便直接从本地加载静态文件
+      if (url.startsWith('/data/')) {
+        return { ...config, baseURL: '' };
+      }
+
+      return { ...config };
+    },
+  ],
 };
