@@ -13,6 +13,7 @@ import {
 } from '@/components';
 import { currentUser as queryCurrentUser } from '@/services/ant-design-pro/api';
 import defaultSettings from '../config/defaultSettings';
+import { G_PUBLIC_PATH } from "../config/GlobalConfig";
 import { errorConfig } from './requestErrorConfig';
 import '@ant-design/v5-patch-for-react-19';
 
@@ -154,17 +155,21 @@ export const request: RequestConfig = {
   //
   ...errorConfig,
 
-  // 请求拦截器 - 仅在开发环境生效
-  requestInterceptors: isDev ? [
+  // 请求拦截器 - 对 /data/ 路径处理，确保在生产环境加上 publicPath 前缀
+  requestInterceptors: [
     (config: RequestOptions) => {
       const url = config.url || '';
 
-      // 对于 /data/ 路径，移除 baseURL 以便直接从本地加载静态文件
+      // 对于 /data/ 路径，移除 baseURL 并在生产环境加上 PUBLIC_PATH 前缀
       if (url.startsWith('/data/')) {
-        return { ...config, baseURL: '' };
+        let finalUrl = url;
+        if (!isDev) {
+          finalUrl = G_PUBLIC_PATH + url;
+        }
+        return { ...config, url: finalUrl, baseURL: '' };
       }
 
       return { ...config };
     },
-  ] : [],
+  ],
 };

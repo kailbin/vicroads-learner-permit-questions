@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import { defineConfig } from '@umijs/max';
 import defaultSettings from './defaultSettings';
 import proxy from './proxy';
+import { G_PUBLIC_PATH } from "./GlobalConfig";
 
 import routes from './routes';
 
@@ -14,7 +15,7 @@ const { REACT_APP_ENV = 'dev' } = process.env;
  * @description 部署时的路径，如果部署在非根目录下，需要配置这个变量
  * @doc https://umijs.org/docs/api/config#publicpath
  */
-const PUBLIC_PATH: string = "/vicroads-learner-permit-questions/";
+const PUBLIC_PATH: string = G_PUBLIC_PATH + '/';
 
 export default defineConfig({
   /**
