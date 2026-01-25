@@ -111,6 +111,7 @@ public class VicRoadsLearnerPermitQuestions {
         questionPO.setCreateTime(now);
         questionPO.setUpdateTime(now);
         allQuestionPOs.put(questionId, questionPO);
+        log.info("New question id:{}, title:{}", questionId, title);
     }
 
     /**
