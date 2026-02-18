@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { defineConfig } from '@umijs/max';
 import defaultSettings from './defaultSettings';
 import proxy from './proxy';
-import { G_PUBLIC_PATH } from "./GlobalConfig";
+import { G_PUBLIC_PATH, GA_ID } from "./GlobalConfig";
 
 import routes from './routes';
 
@@ -147,6 +147,16 @@ export default defineConfig({
   headScripts: [
     // 解决首次加载时白屏的问题
     { src: join(PUBLIC_PATH, "scripts/loading.js"), async: true },
+    // Google Analytics 4
+    { src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`, async: true },
+    {
+      content: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${GA_ID}');
+      `,
+    },
   ],
 
   //================ pro 插件配置 =================

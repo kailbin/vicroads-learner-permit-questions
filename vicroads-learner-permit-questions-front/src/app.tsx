@@ -2,6 +2,7 @@ import { LinkOutlined } from '@ant-design/icons';
 import type { Settings as LayoutSettings } from '@ant-design/pro-components';
 import { SettingDrawer } from '@ant-design/pro-components';
 import type { RequestConfig, RunTimeLayoutConfig } from '@umijs/max';
+import type { RequestOptions } from '@@/plugin-request/request';
 import { history, Link } from '@umijs/max';
 import React from 'react';
 import {
@@ -11,6 +12,7 @@ import {
   Question,
   SelectLang,
 } from '@/components';
+import GA from '@/components/GA';
 import { currentUser as queryCurrentUser } from '@/services/ant-design-pro/api';
 import defaultSettings from '../config/defaultSettings';
 import { G_PUBLIC_PATH } from "../config/GlobalConfig";
@@ -124,6 +126,7 @@ export const layout: RunTimeLayoutConfig = ({
       // if (initialState?.loading) return <PageLoading />;
       return (
         <>
+          <GA />
           {children}
           {isDev && (
             <SettingDrawer
