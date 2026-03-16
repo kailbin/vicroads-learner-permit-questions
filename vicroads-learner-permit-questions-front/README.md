@@ -1,57 +1,21 @@
-# Ant Design Pro
+# React + TypeScript + Vite + shadcn/ui
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
 
-## Environment Prepare
+## Adding components
 
-Install `node_modules`:
-
-```bash
-npm install
-```
-
-or
+To add components to your app, run the following command:
 
 ```bash
-yarn
+npx shadcn@latest add button
 ```
 
-## Provided Scripts
+This will place the ui components in the `src/components` directory.
 
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
+## Using components
 
-Scripts provided in `package.json`. It's safe to modify or add additional script:
+To use the components in your app, import them as follows:
 
-### Start project
-
-```bash
-npm start
+```tsx
+import { Button } from "@/components/ui/button"
 ```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).

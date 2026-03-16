@@ -1,47 +1,13 @@
 {
-  // TypeScript 编译选项配置
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
   "compilerOptions": {
-    // 指定解析非相对模块名时的基本目录，启用从项目根目录使用路径别名
-    "baseUrl": "./",
-    // 指定编译目标的 ECMAScript 版本，使用 esnext 保留最新的 JavaScript 特性
-    "target": "esnext",
-    // 使用 node 风格的模块解析策略，兼容 npm 包管理器
-    "moduleResolution": "node",
-    // 使用 React 新版 JSX 转换器（React 17+），无需在文件中导入 React
-    "jsx": "react-jsx",
-    // 启用 CommonJS 和 ES 模块的互操作性，方便混合使用两种模块格式
-    "esModuleInterop": true,
-    // 启用对装饰器语法的实验性支持，用于特殊框架如 MobX、class-style 组件
-    "experimentalDecorators": true,
-    // 启用所有严格类型检查选项，提高代码安全性和类型安全
-    "strict": true,
-    // 强制文件名大小写一致，避免 Windows 和 Linux 跨平台问题
-    "forceConsistentCasingInFileNames": true,
-    // 确保函数的所有代码路径都返回值或使用 void，防止隐式返回 undefined
-    "noImplicitReturns": true,
-    // 为每个编译的 TypeScript 文件生成对应的 .d.ts 类型定义文件
-    "declaration": true,
-    // 跳过对 node_modules 中 .d.ts 文件的类型检查，加快编译速度
-    "skipLibCheck": true,
-    // 允许在 TypeScript 中直接导入 JSON 文件作为模块
-    "resolveJsonModule": true,
-    // 配置模块名称的路径映射，简化导入语句
+    "baseUrl": ".",
     "paths": {
-      // 将 @/* 映射到 ./src/* 目录，可用 import { Button } from '@/components'
-      "@/*": ["./src/*"],
-      // 将 @@/* 映射到 Umi 框架自动生成的 .umi 目录
-      "@@/*": ["./src/.umi/*"],
-      // 将 @@test/* 映射到 Umi 测试生成的 .umi-test 目录
-      "@@test/*": ["./src/.umi-test/*"]
+      "@/*": ["./src/*"]
     }
-  },
-  // 指定 TypeScript 编译器应该包含的文件或目录
-  "include": [
-    // 包含项目下所有的 TypeScript 类型定义文件
-    "./**/*.d.ts",
-    // 包含项目下所有的 TypeScript 源代码文件
-    "./**/*.ts",
-    // 包含项目下所有的 TypeScript JSX 文件（用于 React 组件）
-    "./**/*.tsx"
-  ]
+  }
 }
