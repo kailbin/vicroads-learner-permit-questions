@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         <div className="border rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-2">Test Overview</h2>
           <p className="text-muted-foreground mb-4">Learn basic information about the test</p>
-          <p className="mb-4">This practice system contains <strong>2</strong> official Victoria Learner Permit test questions.</p>
+          <p className="mb-4">This practice system contains <strong>174</strong> official Victoria Learner Permit test questions.</p>
           <p>These questions cover important aspects of road safety, traffic rules, and driving knowledge.</p>
         </div>
 
