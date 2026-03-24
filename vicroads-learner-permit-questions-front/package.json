@@ -4,12 +4,12 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite --base=/vicroads-learner-permit-questions/",
-    "build": "tsc -b && vite build --base=/vicroads-learner-permit-questions/",
+    "dev": "vite --base=/",
+    "build": "tsc -b && vite build --base=/",
     "lint": "eslint .",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit",
-    "preview": "vite preview --base=/vicroads-learner-permit-questions/"
+    "preview": "vite preview --base=/"
   },
   "dependencies": {
     "@fontsource-variable/public-sans": "^5.2.7",
