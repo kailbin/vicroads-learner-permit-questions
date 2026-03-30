@@ -36,4 +36,9 @@ public class QuestionPO {
      */
     private LocalDateTime updateTime;
 
+    /**
+     * 翻译和解释
+     */
+    private String explain;
+
 }
