@@ -1,8 +1,13 @@
 package io.github.kailbin.explain;
 
+import org.springframework.ai.chat.messages.UserMessage;
+import org.springframework.ai.content.Media;
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.ai.openai.OpenAiChatOptions;
 import org.springframework.ai.openai.api.OpenAiApi;
+import org.springframework.core.io.ByteArrayResource;
+import org.springframework.util.MimeTypeUtils;
+import org.springframework.util.StringUtils;
 
 public class OpenAiMain {
 
@@ -20,7 +25,7 @@ public class OpenAiMain {
         // 2. 配置 ChatOptions
         // 重点：在这里关闭“Thinking”模式（针对支持该模式的模型，如 o1/o3）
         var options = OpenAiChatOptions.builder()
-                 .model("kimi-k2.5:cloud")
+                .model("kimi-k2.5:cloud")
 //                 .model("Qwen3.5-9B-MLX-4bit")
 //                 .model("Qwen3.5-27B-4bit")
                 // .model("Qwen3.5-27B-Claude-4.6-Opus-Distilled-MLX-4bit") // 使用不支持/不开启推理模式的标准模型
@@ -38,9 +43,23 @@ public class OpenAiMain {
         return chatModel.call(userInput);
     }
 
-    public static void main(String[] args) {
-        OpenAiMain client = new OpenAiMain();
-        System.out.println(client.getResponse("你好，请简单介绍下你自己。 /no_think"));
+    public String getResponseWithImage(String userInput, String base64Image) {
+        if (!StringUtils.hasText(base64Image)) {
+            return getResponse(userInput);
+        }
+
+        byte[] data = java.util.Base64.getDecoder().decode(base64Image);
+
+        ByteArrayResource resource = new ByteArrayResource(data);
+
+        Media imageMedia = new Media(MimeTypeUtils.IMAGE_JPEG, resource);
+
+        UserMessage userMessage = UserMessage.builder()
+                .media(imageMedia)
+                .text(userInput)
+                .build();
+
+        return chatModel.call(userMessage);
     }
 
 }

@@ -58,8 +58,9 @@ public class QuestionExplainMain {
             fullQuestion.append(System.lineSeparator());
             System.out.println(fullQuestion);
 
-
-            String response = openAiMain.getResponse(fullQuestion + System.lineSeparator() + prompt);
+            String imageBase64 = questionPO.getImageBase64();
+            String userInput = fullQuestion + System.lineSeparator() + prompt;
+            String response = openAiMain.getResponseWithImage(userInput, imageBase64);
             System.out.println(response);
 
             questionPO.setExplain(response.replace("```", "").trim());
